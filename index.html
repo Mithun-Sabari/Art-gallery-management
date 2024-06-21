@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Art City</title>
+
+    <!-- Style Css Link -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Style Css Link -->
+
+    <!-- Font Awesome Cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Font Awesome Cdn -->
+
+</head>
+<body>
+
+    <div class="header">
+        <nav>
+            <input type="checkbox" id="show-search">
+            <input type="checkbox" id="show-menu">
+            <label for="show-menu" class="menu-icon"><i class="fas fa-bars"></i></label>
+            <div class="content">
+                <div class="logo"><a href="index.html"><img src="./images/logo.png" alt=""></a></div>
+                <ul class="links">
+                    <li><a href="index.html" id="first">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#gallery" target="_blank">Gallery</a></li>
+                    <li><a href="#contact">Feedback</a></li>
+                </ul>
+            </div>
+            <span id="log">
+                <div class="dropdown">
+                <button class="dropbtn">Profile
+                   <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                   <a href="login.html">Sign Out</a>
+                </div>
+                </div>
+            </span>
+        </nav>
+    </div>
+    <!-- Header End -->
+
+
+    <!-- Home Section Start -->
+    <div class="home">
+        <div class="main-text">
+            <h1>Where word fails, <br>Art speaks</h1><br>
+           <a href="#gallery"> <button id="btn" >Gallery</button></a>
+        </div>
+    </div>
+    <!-- Home Section End -->
+
+    <!-- About Section Start -->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="./images/about-img.jpeg" alt="">
+        </div>
+        <div class="about-text">
+            <h3>About Art City</h3>
+            <p>Welcome to Art City, a captivating online art gallery that celebrates the boundless creativity of artists from all around the world. 
+                Step into a world of colors, shapes, and emotions, where art knows no boundaries and where each piece tells a unique story. 
+                Whether you are an art enthusiast, a seasoned collector, or a curious newcomer, 
+                Art City offers an immersive experience that will leave you in awe of the incredible talent that exists within our global 
+                artistic community.
+            </p>
+        </div>
+    </section>
+    <!-- About Section End -->
+
+    <!-- Product Section Start -->
+    <section class="gallery" id="gallery">
+        <div class="main-txt">
+            <br><h3>Gallery</h3>
+        </div>
+        <div class="card-content" style="text-align: center;">
+            <div class="row">
+                <img src="./images/art1.jpg" alt="" height="350">
+                <div class="card-body">
+                    <h3>The Eye</h3><br>
+                    <h5>Michelangelo</h5><br>
+                    <h5>$5000</h5><br>
+                    <button class="add-to-cart" data-id="1222" data-title="The Eye" data-artist="Michelangelo" data-price="5000">ADD TO CART</button>
+                </div>
+            </div>
+            <div class="row">
+                <img src="./images/art2.jpeg" alt="" height="350">
+                <div class="card-body">
+                    <h3>The Night Watch</h3><br>
+                    <h5>Rembrandt</h5><br>
+                    <h5>$3000</h5><br>
+                    <button class="add-to-cart" data-id="1223" data-title="The Night Watch" data-artist="Rembrandt" data-price="3000">ADD TO CART</button>
+                </div>
+            </div>
+            <div class="row">
+                <img src="./images/art3.jpeg" alt="" height="350">
+                <div class="card-body">
+                    <h3>Le Reve</h3><br>
+                    <h5>Pablo Picasso</h5><br>
+                    <h5>$6500</h5><br>
+                    <button class="add-to-cart" data-id="1224" data-title="Le Reve" data-artist="Pablo Picasso" data-price="6500">ADD TO CART</button>
+                </div>
+            </div>
+            <div class="row">
+                <img src="./images/art4.jpeg" alt="" height="350">
+                <div class="card-body">
+                    <h3>Midnight Mexico</h3><br>
+                    <h5>Leonardo da Vinci</h5><br>
+                    <h5>$5500</h5><br>
+                    <button class="add-to-cart" data-id="1221" data-title="Midnight Mexico" data-artist="Leonardo da Vinci" data-price="5500">ADD TO CART</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="card-content" style="text-align: center;">
+            <div class="row">
+                <img src="./images/art5.jpeg" alt="" height="350">
+                <div class="card-body">
+                    <h3>The Crane</h3><br>
+                    <h5>Leonardo da Vinci</h5><br>
+                    <h5>$1500</h5><br>
+                    <button class="add-to-cart" data-id="1225" data-title="The Crane" data-artist="Leonardo da Vinci" data-price="1500">ADD TO CART</button>
+                </div>
+            </div>
+            <div class="row">
+                <img src="./images/art6.jpeg" alt="" height="350">
+                <div class="card-body">
+                    <h3>Triangulism</h3><br>
+                    <h5>Claude Monet</h5><br>
+                    <h5>$4000</h5><br>
+                    <button class="add-to-cart" data-id="1226" data-title="Triangulism" data-artist="Claude Monet" data-price="4000">ADD TO CART</button>
+                </div>
+            </div>
+            <div class="row">
+                <img src="./images/art7.jpeg" alt="" height="350">
+                <div class="card-body">
+                    <h3>Lots of Eyes</h3><br>
+                    <h5>George Seurat</h5><br>
+                    <h5>$5500</h5><br>
+                    <button class="add-to-cart" data-id="1227" data-title="Lots of Eyes" data-artist="George Seurat" data-price="5500">ADD TO CART</button>
+                </div>
+            </div>
+            <div class="row">
+                <img src="./images/art8.jpeg" alt="" height="350">
+                <div class="card-body">
+                    <h3>Doodle Girl</h3><br>
+                    <h5>Vermeer</h5><br>
+                    <h5>$6700</h5><br>
+                    <button class="add-to-cart" data-id="1228" data-title="Doodle Girl" data-artist="Vermeer" data-price="6700">ADD TO CART</button>
+                </div>
+            </div>
+        </div><br><br>
+    </section>
+    <!-- Product Section End -->
+
+    <!-- Cart Section Start -->
+    <section class="cart" id="cart">
+        <div class="main-txt">
+            <br><h3>Cart</h3>
+        </div>
+        <div class="cart-content" style="margin-left: 100px; font-size: 20px;">
+            <!-- Cart items will be appended here dynamically -->
+        </div>
+        <br>
+        <center><button class="checkout-btn">CHECKOUT</button></center>
+    </section>
+    <!-- Cart Section End -->
+
+    <!-- Footer Start -->
+    <footer id="footer">
+        <div class="footer-content">
+            <div class="logo">
+                <img src="./images/logo.png" alt="">
+            </div>
+            <div class="socail-links">
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-facebook-f"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-youtube"></i>
+                <i class="fa-brands fa-pinterest-p"></i>
+            </div>
+        </div>
+        <hr>
+        <div class="footer-bottom-content">
+            <div class="copyright">
+                <p>&copy;Copyright <strong>Art City</strong>.All Rights Reserved</p>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer End -->
+    <a href="#" class="arrow"><i><img src="./images/up-arrow.png" alt="" width="50px"></i></a>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const cartContent = document.querySelector('.cart-content');
+
+            document.querySelectorAll('.add-to-cart').forEach(button => {
+                button.addEventListener('click', () => {
+                    const title = button.getAttribute('data-title');
+                    const artist = button.getAttribute('data-artist');
+                    const price = parseFloat(button.getAttribute('data-price'));
+
+                    const cartItem = document.createElement('div');
+                    cartItem.classList.add('cart-item');
+                    cartItem.innerHTML = `
+                        <h3>${title}</h3>
+                        <p>Artist: ${artist}</p>
+                        <p>Price: $<span class="item-price">${price.toFixed(2)}</span></p>
+                        <button class="remove-from-cart">Remove</button>
+                        <input type="hidden" class="art-id" value="${button.getAttribute('data-id')}">
+                    `;
+                    cartContent.appendChild(cartItem);
+
+                    const removeButton = cartItem.querySelector('.remove-from-cart');
+                    removeButton.addEventListener('click', () => {
+                        cartItem.remove();
+                    });
+                });
+            });
+
+            document.querySelector('.checkout-btn').addEventListener('click', () => {
+                const cartItems = document.querySelectorAll('.cart-item');
+                const cartData = [];
+
+                cartItems.forEach(item => {
+                    const id = item.querySelector('.art-id').value;
+
+                    cartData.push({ id});
+                });
+
+                // Send cartData to the server using AJAX
+                fetch('checkout.php', {
+                    method: 'POST',
+                    body: JSON.stringify(cartData),
+                    headers: {
+                        'Content-Type': 'application/json'
+                    }
+                })
+                .then(response => response.text())
+                .then(data => {
+                    console.log(data);
+                    window.location.href = 'checkout.php'; // Redirect to checkout page
+                })
+                .catch(error => {
+                    console.error('Error:', error);
+                });
+            });
+        });
+    </script>
+</body>
+</html>

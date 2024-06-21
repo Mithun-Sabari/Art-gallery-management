@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Art City - Login</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+          background-image: url("./images/1.jpg");
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <form action="signup.php" method="POST" class="login-form">
+            <input type="text" name="Name" placeholder="Full Name" required>
+            <input type="tel" name="Phone" placeholder="Phone Number" pattern="[5-9]{1}[0-9]{9}" required>
+            <input type="text" name="Place" placeholder="Place" >
+            <input type="number" name="Username" placeholder="Username" required>
+            <input type="password" name="Password" placeholder="Password" required>
+            <input type="password" name="CnfPassword" placeholder="Confirm Password" required>
+            <button type="submit" style="font-size: 20px; ">Sign up</button>
+        </form>
+        <p class="signup-link" style="font-size: 20px;">Already a user? <a href="login.html">Sign up</a></p>
+    </div>
+</body>
+</html>
